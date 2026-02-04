@@ -19,13 +19,6 @@ Therefore, a custom loss combining price MSE and directional loss was designed.
 - Period (Train): 2020-01-01 ~ 2024-12-31  
 - Period (Test): 2025-01-01 ~
 
-## How to Run
-```bash
-pip install -r requirements.txt
-python train.py
-python test.py
-
-
 ## Environment
 - Python 3.10
 - TensorFlow 2.10.0
@@ -38,5 +31,13 @@ python test.py
 ## Future Work
 - Model architecture optimization
 - Additional technical indicators
+
+## How to Run
+```bash
+pip install -r requirements.txt
+python train.py
+python test.py
+
+
 
 
