@@ -17,7 +17,7 @@ def main():
     horizon = 4
 
     all_stats = load_stats("artifacts/stats.json")
-    train_stats = all_stats[stock]  # ✅ 반드시 train 기준
+    train_stats = all_stats[stock]
 
     model = keras.models.load_model(
         "artifacts/model.keras",
